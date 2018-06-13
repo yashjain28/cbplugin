@@ -1,17 +1,17 @@
 const defaultHTMLWidget = {
-  [HTML_KEY]: `\
+  ["HTML"]: `\
 <div class="text-center underline">
   <h2>HTML Widget</h2>
 </div>
 `,
-  [CSS_KEY]: `\
+  ["CSS"]: `\
 .underline {
   text-decoration: underline;
 }
 `,
-  [JS_KEY]: `\
+  ["JavaScript"]: `\
 //JavaScript
-`,
+`
 };
 
 const createDefaultForStaticSetting = function(rtnVal){
